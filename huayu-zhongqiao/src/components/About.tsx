@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { siteData } from '../data';
-import { Building2, Handshake } from 'lucide-react';
+import { Building2, Handshake, Globe } from 'lucide-react';
 
 export default function About() {
   const { about, cooperation } = siteData;

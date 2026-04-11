@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { siteData } from '../data';
-import { BookOpen, LineChart, Zap, Network } from 'lucide-react';
+import { BookOpen, LineChart, Zap, Network, Briefcase } from 'lucide-react';
 
 export default function Programs() {
   const { titleZh, titleEn, majors, shortTerm } = siteData.programs;
