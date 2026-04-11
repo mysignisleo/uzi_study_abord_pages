@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-brand-light;
+  }
+
+  ::selection {
+    @apply bg-brand-red text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .clip-path-slant {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+
+  .glass-dark {
+    @apply bg-primary-900/80 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+}
